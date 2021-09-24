@@ -29,7 +29,7 @@ public class Cliente {
 	private Cliente(String cl) {
 		//System.out.println(l);
 		String[] data= cl.split(",");
-		if(data.length!=3) throw new IllegalArgumentException("Incorrecto formato para un Cliente "+cl+". Debería ser nombre,franjaHoraria,trabajadoresAfines.");
+		if(data.length!=3) throw new IllegalArgumentException("Incorrecto formato para un Cliente "+cl+". Deberï¿½a ser nombre,franjaHoraria,trabajadoresAfines.");
 		
 		this.nombre= data[0];
 		this.franjaHoraria= Integer.parseInt(data[1]);
